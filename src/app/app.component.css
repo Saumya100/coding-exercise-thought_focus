@@ -1,0 +1,25 @@
+.headerdiv {
+    margin-top: 0px;
+    height: 60px;
+    min-height: 60px;
+    vertical-align: top;
+  }
+  
+  .contentdiv {
+    position: relative;
+    /* overflow: scroll; */
+    min-height: 91%;
+  }
+  
+  .footerdiv {
+    position: relative;
+    overflow: hidden;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 40px;
+    min-height: 30px;
+    width: 100%;
+    background-color: black;
+  }
+  
