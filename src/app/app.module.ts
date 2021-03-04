@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { SampleDataService } from './services/sample-data.service';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent    
+    AboutComponent,
+    ContactComponent    
   ],
   imports: [
     BrowserModule,

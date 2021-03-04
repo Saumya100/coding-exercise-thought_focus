@@ -7,8 +7,9 @@
   
   .contentdiv {
     position: relative;
-    /* overflow: scroll; */
-    min-height: 91%;
+    overflow: scroll; 
+    /* min-height: 600px; */
+    height: 85vh;
   }
   
   .footerdiv {
